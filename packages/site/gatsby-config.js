@@ -1,4 +1,4 @@
-const { version, homepage, repository } = require('../charts/package.json');
+const { version, repository } = require('../charts/package.json');
 
 module.exports = {
   plugins: [
@@ -12,8 +12,8 @@ module.exports = {
   // Customize your site metadata:
   siteMetadata: {
     title: 'Ant Design Charts',
-    description: 'A collection of charts made with the Grammar of Graphics',
-    siteUrl: homepage,
+    description: 'AntV react component library',
+    siteUrl: 'https://charts.ant.design',
     githubUrl: repository.url,
     showAPIDoc: true, // 是否在demo页展示API文档
     isAntVSite: false,
